@@ -4,10 +4,17 @@
   box-sizing: border-box;
 }
 
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+}
+
 body {
   font-family: "Outfit", sans-serif;
   background-color: hsl(212, 45%, 89%);
-  height: 100vh;
+  min-height: 100vh;
 
   display: grid;
   grid-template-rows: 1fr auto;
@@ -17,36 +24,36 @@ body {
 
 .qr-container {
   text-align: center;
-  width: 270px;
+  width: 27rem;
   background-color: hsl(0, 0%, 100%);
-  border-radius: 12px;
-  margin-bottom: 12px;
-  padding: 15px;
+  border-radius: 1.2rem;
+  margin-bottom: 1.2rem;
+  padding: 1.5rem;
 }
 
 .qr-image {
   width: 100%;
-  border-radius: 12px;
-  margin-bottom: 12px;
+  border-radius: 1.2rem;
+  margin-bottom: 1.2rem;
 }
 
 .qr-heading {
   color: hsl(218, 44%, 22%);
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 700;
   line-height: 1.2;
-  margin-bottom: 12px;
+  margin-bottom: 1.2rem;
 }
 
 .qr-description {
   color: hsl(216, 15%, 48%);
-  font-size: 15px;
+  font-size: 1.5rem;
   line-height: 1.4;
-  margin-bottom: 12px;
+  margin-bottom: 1.2rem;
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 1.1rem;
 }
 
 .attribution a {
