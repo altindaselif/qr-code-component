@@ -1,3 +1,10 @@
+:root {
+  --slate-900: hsl(218, 44%, 22%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-300: hsl(212, 45%, 89%);
+  --white: hsl(0, 0%, 100%);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -13,49 +20,40 @@ html {
 
 body {
   font-family: "Outfit", sans-serif;
-  background-color: hsl(212, 45%, 89%);
-  min-height: 100vh;
+  background-color: var(--slate-300);
+  height: 100vh;
 
-  display: grid;
-  grid-template-rows: 1fr auto;
+  display: flex;
   align-items: center;
-  justify-items: center;
+  justify-content: center;
 }
 
 .qr-container {
   text-align: center;
-  width: 27rem;
-  background-color: hsl(0, 0%, 100%);
-  border-radius: 1.2rem;
-  margin-bottom: 1.2rem;
-  padding: 1.5rem;
+  max-width: 32rem;
+  width: 100%;
+  background-color: var(--white);
+  border-radius: 2rem;
+  padding: 2.4rem;
 }
 
 .qr-image {
   width: 100%;
-  border-radius: 1.2rem;
-  margin-bottom: 1.2rem;
+  border-radius: 2rem;
+  margin-bottom: 1.6rem;
 }
 
 .qr-heading {
-  color: hsl(218, 44%, 22%);
-  font-size: 2rem;
+  color: var(--slate-900);
+  font-size: 2.2rem;
   font-weight: 700;
   line-height: 1.2;
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.6rem;
 }
 
 .qr-description {
-  color: hsl(216, 15%, 48%);
+  color: var(--slate-500);
   font-size: 1.5rem;
   line-height: 1.4;
-  margin-bottom: 1.2rem;
-}
-
-.attribution {
-  font-size: 1.1rem;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
+  margin-bottom: 1.6rem;
 }
