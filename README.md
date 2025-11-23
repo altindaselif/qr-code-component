@@ -28,8 +28,7 @@ This is a QR Code component that you can use on your websites.
 
 - Semantic HTML5 markup
 - CSS custom properties
-- CSS Grid
-- Desktop-first workflow
+- Flexbox
 
 ### What I learned
 
