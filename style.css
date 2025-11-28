@@ -10,11 +10,13 @@
 
   /* Text Preset 1 */
   --tp-1-size: 2.2rem;
+  --tp-1-weight: 700;
   --tp-1-letter-spacing: 0;
   --tp-1-line-height: 1.2;
 
   /* Text Preset 2 */
   --tp-2-size: 1.5rem;
+  --tp-1-width: 400;
   --tp-2-letter-spacing: 0.2;
   --tp-2-line-height: 1.4;
 
@@ -65,6 +67,7 @@ body {
 .qr-heading {
   color: var(--slate-900);
   font-size: var(--tp-1-size);
+  font-weight: var(--tp-1-weight);
   line-height: var(--tp-1-line-height);
   letter-spacing: var(--tp-1-line-height);
   margin-bottom: var(--spacing-200);
@@ -73,6 +76,7 @@ body {
 .qr-description {
   color: var(--slate-500);
   font-size: var(--tp-2-size);
+  font-weight: var(--tp-2-weight);
   line-height: var(--tp-2-line-height);
   letter-spacing: var(--tp-2-letter-spacing);
   padding: 0 var(--spacing-200);
